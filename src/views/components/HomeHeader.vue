@@ -1,8 +1,16 @@
 <template>
   <div class="homeheader">
-      <div class="homeheader-left">返回</div>
-      <div class="homeheader-input">搜索</div>
-      <div class="homeheader-right">城市</div>
+      <div class="homeheader-left">
+        <span class="iconfont">&#xe60e;</span>
+
+      </div>
+      <div class="homeheader-input">
+        <span class="iconfont">&#xe627;</span>
+        搜索
+      </div>
+      <div class="homeheader-right">
+        <span class="iconfont">城市&#xe64a;</span>
+      </div>
   </div>
 </template>
 
@@ -37,7 +45,7 @@ export default {
   }
   .homeheader-right {
     float:right;
-    width: 50px;
+    width: 60px;
   }
 </style>
 
