@@ -9,7 +9,7 @@
 
 <script>
 import HomeHeader from './components/HomeHeader.vue'
-import HomeSwiper from './components/swiper.vue'
+import HomeSwiper from './components/HomeSwipers.vue'
 import HomeIcon from './components/HomeIcons.vue'
 
 export default {
