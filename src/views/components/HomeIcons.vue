@@ -8,21 +8,27 @@
       </div>
       <div class="icon">
         <div class="icon-img">
-            <img class="icon-img-content" src="https://s.qunarzz.com/homenode/images/touchheader/piao.png" />
+            <img class="icon-img-content" src="https://s.qunarzz.com/homenode/images/touchheader/train.png" />
         </div>
-        <p class="icon-desc">热门景点 </p>
+        <p class="icon-desc">火车票 </p>
       </div>
       <div class="icon">
         <div class="icon-img">
-            <img class="icon-img-content" src="https://s.qunarzz.com/homenode/images/touchheader/piao.png" />
+            <img class="icon-img-content" src="https://s.qunarzz.com/homenode/images/touchheader/package.png" />
         </div>
-        <p class="icon-desc">热门景点 </p>
+        <p class="icon-desc">度假 </p>
       </div>
       <div class="icon">
         <div class="icon-img">
-            <img class="icon-img-content" src="https://s.qunarzz.com/homenode/images/touchheader/piao.png" />
+            <img class="icon-img-content" src="https://s.qunarzz.com/homenode/images/touchheader/flight.png" />
         </div>
-        <p class="icon-desc">热门景点 </p>
+        <p class="icon-desc">机票 </p>
+      </div>
+      <div class="icon">
+        <div class="icon-img">
+            <img class="icon-img-content" src="https://s.qunarzz.com/homenode/images/touchheader/hotel.png" />
+        </div>
+        <p class="icon-desc">酒店 </p>
       </div>
   </div>
 </template>
@@ -56,10 +62,11 @@ export default {
     position: absolute;
     top:0;
     left:0;
+    padding-top:10px;
     width: 100%;
   }
   .icon-img-content {
-    width:70%;
+    width:60%;
   }
   .icon-desc {
     position:absolute;

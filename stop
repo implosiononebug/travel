@@ -1,0 +1,51 @@
+[1mdiff --git a/src/views/components/HomeIcons.vue b/src/views/components/HomeIcons.vue[m
+[1mindex 578d88c..62a7b67 100644[m
+[1m--- a/src/views/components/HomeIcons.vue[m
+[1m+++ b/src/views/components/HomeIcons.vue[m
+[36m@@ -8,21 +8,27 @@[m
+       </div>[m
+       <div class="icon">[m
+         <div class="icon-img">[m
+[31m-            <img class="icon-img-content" src="https://s.qunarzz.com/homenode/images/touchheader/piao.png" />[m
+[32m+[m[32m            <img class="icon-img-content" src="https://s.qunarzz.com/homenode/images/touchheader/train.png" />[m[41m[m
+         </div>[m
+[31m-        <p class="icon-desc">热门景点 </p>[m
+[32m+[m[32m        <p class="icon-desc">火车票 </p>[m[41m[m
+       </div>[m
+       <div class="icon">[m
+         <div class="icon-img">[m
+[31m-            <img class="icon-img-content" src="https://s.qunarzz.com/homenode/images/touchheader/piao.png" />[m
+[32m+[m[32m            <img class="icon-img-content" src="https://s.qunarzz.com/homenode/images/touchheader/package.png" />[m[41m[m
+         </div>[m
+[31m-        <p class="icon-desc">热门景点 </p>[m
+[32m+[m[32m        <p class="icon-desc">度假 </p>[m[41m[m
+       </div>[m
+       <div class="icon">[m
+         <div class="icon-img">[m
+[31m-            <img class="icon-img-content" src="https://s.qunarzz.com/homenode/images/touchheader/piao.png" />[m
+[32m+[m[32m            <img class="icon-img-content" src="https://s.qunarzz.com/homenode/images/touchheader/flight.png" />[m[41m[m
+         </div>[m
+[31m-        <p class="icon-desc">热门景点 </p>[m
+[32m+[m[32m        <p class="icon-desc">机票 </p>[m[41m[m
+[32m+[m[32m      </div>[m[41m[m
+[32m+[m[32m      <div class="icon">[m[41m[m
+[32m+[m[32m        <div class="icon-img">[m[41m[m
+[32m+[m[32m            <img class="icon-img-content" src="https://s.qunarzz.com/homenode/images/touchheader/hotel.png" />[m[41m[m
+[32m+[m[32m        </div>[m[41m[m
+[32m+[m[32m        <p class="icon-desc">酒店 </p>[m[41m[m
+       </div>[m
+   </div>[m
+ </template>[m
+[36m@@ -56,10 +62,11 @@[m [mexport default {[m
+     position: absolute;[m
+     top:0;[m
+     left:0;[m
+[32m+[m[32m    padding-top:10px;[m[41m[m
+     width: 100%;[m
+   }[m
+   .icon-img-content {[m
+[31m-    width:70%;[m
+[32m+[m[32m    width:60%;[m[41m[m
+   }[m
+   .icon-desc {[m
+     position:absolute;[m
