@@ -1,10 +1,10 @@
 <template>
   <div class="home">
     <home-header :city="city"></home-header>
-    <home-Swiper></home-Swiper>
-    <home-icon></home-icon>
-    <home-recommend></home-recommend>
-    <home-weekend></home-weekend>
+    <home-Swiper :List="swiperList"></home-Swiper>
+    <home-icon :List="iconList"></home-icon>
+    <home-recommend :List="recommendList"></home-recommend>
+    <home-weekend :List="weekendList"></home-weekend>
   </div>
 </template>
 
@@ -18,8 +18,11 @@ export default {
   name: 'home',
   data: function () {
     return {
-      city: ''
-
+      city: '',
+      swiperList: [],
+      iconList: [],
+      recommendList: [],
+      weekendList: []
     }
   },
   components: {
@@ -34,7 +37,15 @@ export default {
       this.axios.get('/static/mock/index.json').then(this.getHomeInfoSucc)
     },
     getHomeInfoSucc: function (res) {
-      console.log(res)
+        res = res.data
+        if(res.ret && res.data) {
+          const data = res.data
+          console.log(data)
+          this.swiperList = data.SwiperList
+          this.iconList =  data.IconList
+          this.recommendList = data.RecommendList
+          this.weekendList = data.WeekendList
+        }
     }
   },
   mounted: function () {

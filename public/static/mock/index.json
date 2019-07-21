@@ -17,7 +17,7 @@
                 "imgUrl": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/a685001bbf5e77a203ff8815e953efbe.jpg_945x288_52b6ec01.jpg"
             }
         ],
-        "iconList": [
+        "IconList": [
             { 
                 "id": "001", 
                 "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/piao.png", 
@@ -95,7 +95,7 @@
               "desc": "安徽黄山宏村景区+西递一日游【夹溪河漂流·纯玩·上门接送】"
             }
         ],
-        "recommendList":[
+        "RecommendList":[
             { 
               "id": "001", 
               "imgUrl": "http://imgs.qunarzz.com/p/tts5/1808/81/915df9066af34302.jpg_r_480x320x90_c5c046f5.jpg" ,
@@ -110,7 +110,7 @@
             },
             { 
               "id": "003",
-              "imgUrl": "ttp://imgs.qunarzz.com/p/tts5/1804/ba/fcf263e7f3c55502.jpg_r_480x320x90_97d7f882.jpg",
+              "imgUrl": "http://imgs.qunarzz.com/p/tts5/1804/ba/fcf263e7f3c55502.jpg_r_480x320x90_97d7f882.jpg",
               "title": "北京-青岛 5天跟团游",
               "desc": "【青岛高铁五日游】海上第一名山-崂山+逢莱八仙过海+威海定远舰，舒适商务酒店"
             },
