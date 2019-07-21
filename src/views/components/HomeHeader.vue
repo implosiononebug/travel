@@ -9,13 +9,16 @@
         搜索
       </div>
       <div class="homeheader-right">
-        <span class="iconfont">城市&#xe64a;</span>
+        <span class="iconfont">{{this.city}}&#xe64a;</span>
       </div>
   </div>
 </template>
 
 <script>
 export default {
+  props: {
+    city: String
+  },
   name: 'HomeHeader'
 }
 </script>

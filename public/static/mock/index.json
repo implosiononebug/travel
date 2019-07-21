@@ -1,0 +1,126 @@
+{
+    "ret": true,
+    "data": {
+        "city": "安徽",
+        "ret": true,
+        "SwiperList": [
+            {
+                "id": "001",
+                "imgUrl": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20196/ebf7306335a5e060dbbfe42b8e8ede9f.jpg_945x288_da043916.jpg"
+            },
+            {
+                "id": "002",
+                "imgUrl": "https://h-des-activity-fecp.qunarzz.com/h_des_activity_fe_h_des_activity_fe/973dc1ae0da73a58410186df08ff25cb.jpg"
+            },
+            {
+                "id": "003",
+                "imgUrl": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/a685001bbf5e77a203ff8815e953efbe.jpg_945x288_52b6ec01.jpg"
+            }
+        ],
+        "IconList": [
+            { 
+                "id": "001", 
+                "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/piao.png", 
+                "desc": "景点门票"
+            },
+            {   
+                "id": "002", 
+                "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/train.png", 
+                "desc": "火车票"
+            },
+            {   
+                "id": "003", 
+                "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/package.png", 
+                "desc": "度假"
+            },
+            {   
+                "id": "004", 
+                "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/flight.png", 
+                "desc": "机票"
+            },
+            {   
+                "id": "005", 
+                "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/hotel.png", 
+                "desc": "酒店"
+            },
+            {   
+                "id": "006", 
+                "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/piao.png", 
+                "desc": "景点门票"
+            },
+            {   
+                "id": "007", 
+                "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/train.png", 
+                "desc": "火车票"
+            },
+            {   
+                "id": "008", 
+                "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/package.png", 
+                "desc": "度假"
+            },
+            {   
+                "id": "009", 
+                "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/flight.png", 
+                "desc": "机票"
+            },
+            {   
+                "id": "010", 
+                "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/hotel.png", 
+                "desc": "酒店"
+            }
+        ],
+        "WeekendList": [
+            { 
+              "id": "001",
+              "imgUrl": "//imgs.qunarzz.com/p/tts6/1709/ee/45f3c09504f42d02.jpg_256x144_73f57dfa.jpg",
+              "title": "黄山出发一日游",
+              "desc": "新安江山水画廊+徽州古城+雄村一日游 （纯玩零购物，上门接）"
+            },
+            { 
+              "id": "002",
+              "imgUrl": "//imgs.qunarzz.com/p/tts6/1902/d3/d7d19b131375b702.jpg_256x144_c61e377b.jpg",
+              "title": "黄山出发一日游",
+              "desc": "【黄山出发、品质纯玩】宏村+西递一日游（赠中餐）"
+            },
+            { 
+              "id": "003",
+              "imgUrl": "//imgs.qunarzz.com/p/tts3/1906/64/c2243508a590b202.jpg_256x144_a80b1d43.jpg",
+              "title": "合肥出发一日游",
+              "desc": "霍山大峡谷漂流一日游【白云峡瀑布群+玻璃桥 赠打水仗道具 】"
+            },
+            { 
+              "id": "004",
+              "imgUrl": "//imgs.qunarzz.com/p/tts9/1902/95/885440113ebd0f02.png_256x144_53e4eef4.png",
+              "title": "黄山出发一日游",
+              "desc": "安徽黄山宏村景区+西递一日游【夹溪河漂流·纯玩·上门接送】"
+            }
+        ],
+        "RecommendList":[
+            { 
+              "id": "001", 
+              "imgUrl": "http://imgs.qunarzz.com/p/tts5/1808/81/915df9066af34302.jpg_r_480x320x90_c5c046f5.jpg" ,
+              "title": "北京-广州 跟5天团游",
+              "desc": "广州+珠海双长隆+珠江夜游5日+升级两晚国际五星+观港珠澳大桥+寻味顺德水乡"
+            },
+            { 
+              "id": "002",
+              "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vs_tts/8bf89971-047d-416c-941c-123eb57914f3.jpg_r_480x320x90_08a97eb1.jpg",
+              "title": "北京-北戴河 2天跟团游",
+              "desc": "<山海关+北戴河2日>一价全含 碧螺塔篝火狂欢+鸽子窝赶海+帆船出海+山海关"
+            },
+            { 
+              "id": "003",
+              "imgUrl": "http://imgs.qunarzz.com/p/tts5/1804/ba/fcf263e7f3c55502.jpg_r_480x320x90_97d7f882.jpg",
+              "title": "北京-青岛 5天跟团游",
+              "desc": "【青岛高铁五日游】海上第一名山-崂山+逢莱八仙过海+威海定远舰，舒适商务酒店"
+            },
+            { 
+              "id": "004",
+              "imgUrl": "http://imgs.qunarzz.com/p/tts3/1810/6a/d375424459abba02.jpg_r_480x320x90_2281ec8e.jpg",
+              "title": "北京-土耳其 11天跟团游",
+              "desc": "暑期预售>温泉酒店+海边酒店+爱琴海>土耳其+卡帕+伊斯坦堡10-13天"
+            }
+        ]
+    }
+}
+  

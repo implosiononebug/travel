@@ -1,5 +1,5 @@
 <template>
-    <swiper>
+    <swiper :option="swiperOption">
       <swiper-slide v-for="(page, index) of pages" :key="index">
         <div class="icons">
             <div class="icon" v-for="item of page" :key="item.id">
@@ -16,26 +16,20 @@
 <script>
 export default {
   name: 'HomeIcon',
+  props: {
+    List: Array
+  },
   data: function () {
     return {
-      iconList: [
-          {id: '001', imgUrl: 'https://s.qunarzz.com/homenode/images/touchheader/piao.png', desc: '景点门票'},
-          {id: '002', imgUrl: 'https://s.qunarzz.com/homenode/images/touchheader/train.png', desc: '火车票'},
-          {id: '003', imgUrl: 'https://s.qunarzz.com/homenode/images/touchheader/package.png', desc: '度假'},
-          {id: '004', imgUrl: 'https://s.qunarzz.com/homenode/images/touchheader/flight.png', desc: '机票'},
-          {id: '005', imgUrl: 'https://s.qunarzz.com/homenode/images/touchheader/hotel.png', desc: '酒店'},
-          {id: '006', imgUrl: 'https://s.qunarzz.com/homenode/images/touchheader/piao.png', desc: '景点门票'},
-          {id: '007', imgUrl: 'https://s.qunarzz.com/homenode/images/touchheader/train.png', desc: '火车票'},
-          {id: '008', imgUrl: 'https://s.qunarzz.com/homenode/images/touchheader/package.png', desc: '度假'},
-          {id: '009', imgUrl: 'https://s.qunarzz.com/homenode/images/touchheader/flight.png', desc: '机票'},
-          {id: '010', imgUrl: 'https://s.qunarzz.com/homenode/images/touchheader/hotel.png', desc: '酒店'}
-        ]
+      swiperOption: {
+        autoplay: false
+      }
     }
   },
   computed: {
     pages: function () {
       const pages = [];
-      this.iconList.forEach((item,index) => {
+      this.List.forEach((item,index) => {
         const page = Math.floor(index/8)
         if(!pages[page]) {
           pages[page] = []
