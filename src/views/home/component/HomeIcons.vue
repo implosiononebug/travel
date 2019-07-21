@@ -1,5 +1,5 @@
 <template>
-    <swiper :option="swiperOption">
+    <swiper :options="swiperOption">
       <swiper-slide v-for="(page, index) of pages" :key="index">
         <div class="icons">
             <div class="icon" v-for="item of page" :key="item.id">
@@ -35,7 +35,7 @@ export default {
           pages[page] = []
         }
         pages[page].push(item)
-      });
+      })
       return pages
     }
   }

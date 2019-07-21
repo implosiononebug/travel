@@ -20,8 +20,7 @@ export default {
   data: function () {
     return {
       swiperOption: {
-        loop: true,
-        pagination: '.swiper-pagination'
+        autoplay: false
     }
     }
   }

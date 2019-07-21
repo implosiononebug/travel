@@ -8,9 +8,13 @@
         <span class="iconfont">&#xe627;</span>
         搜索
       </div>
-      <div class="homeheader-right">
-        <span class="iconfont">{{this.city}}&#xe64a;</span>
-      </div>
+      <router-link
+       to='/city'
+      >
+        <div class="homeheader-right">
+          <span class="iconfont">{{city}}&#xe64a;</span>
+        </div>
+      </router-link>
   </div>
 </template>
 
@@ -49,6 +53,9 @@ export default {
   .homeheader-right {
     float:right;
     width: 60px;
+  }
+  .iconfont {
+    color:white;
   }
 </style>
 

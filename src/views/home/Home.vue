@@ -9,11 +9,12 @@
 </template>
 
 <script>
-import HomeHeader from './components/HomeHeader.vue'
-import HomeSwiper from './components/HomeSwipers.vue'
-import HomeIcon from './components/HomeIcons.vue'
-import HomeRecommend from './components/Recommend.vue'
-import HomeWeekend from './components/Weekend.vue'
+import HomeHeader from './component/HomeHeader.vue'
+import HomeSwiper from './component/HomeSwipers.vue'
+import HomeIcon from './component/HomeIcons.vue'
+import HomeRecommend from './component/Recommend.vue'
+import HomeWeekend from './component/Weekend.vue'
+
 export default {
   name: 'home',
   data: function () {
@@ -40,7 +41,7 @@ export default {
         res = res.data
         if(res.ret && res.data) {
           const data = res.data
-          console.log(data)
+          this.city = data.city
           this.swiperList = data.SwiperList
           this.iconList =  data.IconList
           this.recommendList = data.RecommendList
