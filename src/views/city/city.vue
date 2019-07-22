@@ -1,19 +1,27 @@
 <template>
-  <div class="header-container">
-    <city-header></city-header>
-    <city-search></city-search>
+  <div>
+    <div class="header-container">
+      <city-header></city-header>
+      <city-search></city-search>
+    </div>
+    <city-list></city-list>
+    <alphabet></alphabet>
   </div>
 </template>
 
 <script>
 import CityHeader from './component/cityheader'
 import CitySearch from './component/citysearch'
+import CityList from './component/citylist'
+import Alphabet from './component/cityalpha'
 
 export default {
   name: 'city',
   components: {
     CityHeader,
-    CitySearch
+    CitySearch,
+    CityList,
+    Alphabet
   }
 }
 </script>
