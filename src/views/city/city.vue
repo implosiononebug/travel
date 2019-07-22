@@ -4,8 +4,8 @@
       <city-header></city-header>
       <city-search></city-search>
     </div>
-    <city-list></city-list>
-    <alphabet></alphabet>
+    <city-list :hotcitieslist="hotcities" :cities="cities"></city-list>
+    <alphabet :cities="cities"></alphabet>
   </div>
 </template>
 
@@ -17,11 +17,33 @@ import Alphabet from './component/cityalpha'
 
 export default {
   name: 'city',
+  data: function () {
+    return {
+      cities: {},
+      hotcities: []
+    }
+  },
   components: {
     CityHeader,
     CitySearch,
     CityList,
     Alphabet
+  },
+  methods: {
+    getCityinfo: function () {
+      this.axios.get('/static/mock/city.json').then(this.getCityinfoSucc)
+    },
+    getCityinfoSucc: function (res) {
+      res = res.data
+      if(res.ret && res.data) {
+        const data = res.data
+        this.cities = data.cities
+        this.hotcities = data.hotCities
+      }
+    }
+  },
+  mounted: function () {
+    this.getCityinfo()
   }
 }
 </script>
