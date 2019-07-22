@@ -26,7 +26,7 @@ export default {
   .city-back {
     color: white;
     position: absolute;
-    left: .9rem;
+    left: .2rem;
     top: .9rem;
   }
 </style>

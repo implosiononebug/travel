@@ -1,0 +1,24 @@
+<template>
+  <div class="search">
+      <input class="search-input" type="text" placeholder="输入城市名或拼音"/>
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style scoped>
+  .search-input {
+    width:97%;
+    font-size: .9rem;
+    border:0;
+    height:10%;
+    padding: .5rem;
+    text-align: center;
+    box-sizing:border-box;
+  }
+</style>
+
