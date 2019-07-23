@@ -2,7 +2,7 @@
   <div>
     <div class="header-container">
       <city-header></city-header>
-      <city-search></city-search>
+      <city-search :cities="cities"></city-search>
     </div>
     <city-list :letter="letters" :hotcitieslist="hotcities" :cities="cities"></city-list>
     <alphabet @change="handelGetLetters" :cities="cities"></alphabet>
@@ -56,6 +56,5 @@ export default {
   .header-container {
     height: 5.5rem;
     background: #6fe4f1;
-    position: relative;
   }
 </style>
