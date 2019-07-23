@@ -56,7 +56,7 @@ export default {
           const touchY = e.touches[0].clientY - 88
           const index = Math.floor((touchY - this.startY) / 19.2)
           this.$emit('change', this.letters[index])
-          console.log(index)
+          console.log( index)
         },16)
 
       }
