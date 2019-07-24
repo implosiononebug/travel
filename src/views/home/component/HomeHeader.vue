@@ -12,18 +12,28 @@
        to='/city'
       >
         <div class="homeheader-right">
-          <span class="iconfont">{{city}}&#xe64a;</span>
+          <span class="iconfont">{{this.currentCity}}&#xe64a;</span>
         </div>
       </router-link>
   </div>
 </template>
 
 <script>
+import { mapState, mapGetters } from 'vuex'
+
 export default {
-  props: {
-    city: String
+  name: 'HomeHeader',
+  data: function () {
+    return {
+
+    }
   },
-  name: 'HomeHeader'
+  computed: {
+    ...mapState({
+      currentCity: 'city'
+    }),
+    ...mapGetters(['doubleCity'])
+  }
 }
 </script>
 
@@ -37,9 +47,10 @@ export default {
   .homeheader-left {
     float:left;
     width: 50px;
+    text-align: left;
+    margin: -.1rem 0 0 .2rem;
   }
   .homeheader-input {
-    width:100px;
     height: 35px;
     line-height:38px;
     margin-top:7px;
@@ -52,7 +63,7 @@ export default {
   }
   .homeheader-right {
     float:right;
-    width: 60px;
+    min-width: 100px;
   }
   .iconfont {
     color:white;
