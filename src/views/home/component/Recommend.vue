@@ -6,7 +6,7 @@
       class="recommend-box"
       v-for="item of List"
       :key="item.id"
-      to='detail/item.id'
+      to='detail'
     >
       <div class="rec-img">
         <img :src="item.imgUrl" />
