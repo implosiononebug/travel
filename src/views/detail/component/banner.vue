@@ -1,5 +1,6 @@
 <template>
-  <div class="banner">
+  <div>
+  <div class="banner" @click="handelClickShow">
       <img class="banner-img" src="https://img1.qunarzz.com/p/tts0/1806/b6/3a08046d6c19c002.jpg_r_640x420x90_7bcc3095.jpg" />
       <div class="banner-info">
         <div class="banner-title">三亚亚龙湾红树林</div>
@@ -8,11 +9,37 @@
         </div>
       </div>
   </div>
+    <common-gallary
+       @close="handelCloseGallary"
+       v-show="showGallary"
+       :imgs="imgs"
+    >
+    </common-gallary>
+  </div>
 </template>
 
 <script>
+import CommonGallary from '../../../common/gallary/Gallary'
 export default {
-  name: 'DetailBanner'
+  name: 'DetailBanner',
+  data() {
+    return {
+        showGallary:false,
+        imgs:['https://img1.qunarzz.com/p/tts0/1806/b6/3a08046d6c19c002.jpg_r_640x420x90_7bcc3095.jpg',
+        'https://img1.qunarzz.com/p/tts0/1806/95/93181481fe96f102.jpg_r_1280x840x90_d1dea13e.jpg']
+    }
+  },
+  methods: {
+    handelClickShow: function () {
+      this.showGallary = true
+    },
+    handelCloseGallary: function () {
+      this.showGallary = false
+    }
+  },
+  components: {
+    CommonGallary
+  }
 }
 </script>
 
@@ -32,6 +59,7 @@ export default {
     right:0;
     bottom :0;
     display: flex;
+    background-image: linear-gradient(left top, rgba(0,0,0,0,) ,rgba(0,0,0,0.8))
   }
   .banner-title {
     flex: 1;
