@@ -1,11 +1,11 @@
 <template>
   <div>
   <div class="banner" @click="handelClickShow">
-      <img class="banner-img" src="https://img1.qunarzz.com/p/tts0/1806/b6/3a08046d6c19c002.jpg_r_640x420x90_7bcc3095.jpg" />
+      <img class="banner-img" src="//img1.qunarzz.com/sight/p0/1609/f1/f10a167617911cb6a3.water.jpg_600x330_e5534717.jpg" />
       <div class="banner-info">
-        <div class="banner-title">三亚亚龙湾红树林</div>
+        <div class="banner-title">合肥融创水世界</div>
         <div class="banner-number">
-            <span class="iconfont banner-icon">&#xe64e;6</span>
+            <span class="iconfont banner-icon">&#xe64e;{{this.imgs.length}}</span>
         </div>
       </div>
   </div>
@@ -25,8 +25,10 @@ export default {
   data() {
     return {
         showGallary: false,
-        imgs:['https://img1.qunarzz.com/p/tts0/1806/b6/3a08046d6c19c002.jpg_r_640x420x90_7bcc3095.jpg',
-        'https://img1.qunarzz.com/p/tts0/1806/95/93181481fe96f102.jpg_r_1280x840x90_d1dea13e.jpg']
+        imgs:['http://img1.qunarzz.com/sight/p0/1609/f1/f10a167617911cb6a3.water.jpg_350x240_dea36938.jpg',
+        'http://img1.qunarzz.com/sight/p0/1609/e9/e9bfd34301c98ca9a3.water.jpg_350x240_9866d3bb.jpg',
+        'http://img1.qunarzz.com/sight/p0/1609/98/9838672ef2100b9ba3.water.jpg_350x240_e80b7395.jpg',
+        'http://img1.qunarzz.com/sight/p0/1606/32/3292cea0f4188d74e2.water.jpg_350x240_ada117be.jpg']
     }
   },
   methods: {

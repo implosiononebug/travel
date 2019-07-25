@@ -34,6 +34,7 @@ export default {
   },
   methods: {
     handelScroll() {
+      console.log('scroll')
       const top = document.documentElement.scrollTop
       if(top > 40) {
         let opacity = (top-30) / 120
@@ -50,6 +51,9 @@ export default {
   },
   activated() {
     window.addEventListener('scroll', this.handelScroll)
+  },
+  deactivated () {
+    window.removeEventListener('scroll' , this.handelScroll)
   }
 }
 </script>
