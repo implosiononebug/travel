@@ -24,7 +24,7 @@ export default {
   name: 'DetailBanner',
   data() {
     return {
-        showGallary:false,
+        showGallary: false,
         imgs:['https://img1.qunarzz.com/p/tts0/1806/b6/3a08046d6c19c002.jpg_r_640x420x90_7bcc3095.jpg',
         'https://img1.qunarzz.com/p/tts0/1806/95/93181481fe96f102.jpg_r_1280x840x90_d1dea13e.jpg']
     }
